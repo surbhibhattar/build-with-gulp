@@ -1,7 +1,7 @@
 # build-with-gulp
 You can automate the commands given to a node project with gulp
 
-I am currently working with a web application using Sails. Since I had 2 servers, I had to open three terminals and type commands like npm install, nodemon app, grunt run, etc. And in future, as servers increase, the manual labor of typing commands in each terminal will also increase.
+I am currently working with a web application using Sails. I had 2 servers, I had to open three terminals and type commands like npm install, nodemon app, grunt run, etc. And in future, as servers increase, the manual labor of typing commands in each terminal will also increase.
 
 So I decided to automate this process using gulp. Gulp is a cool tool to automate tasks.
 
