@@ -5,7 +5,7 @@ I am currently working with a web application using Sails. I had 2 servers, I ha
 
 So I decided to automate this process using gulp. Gulp is a cool tool to automate tasks.
 
-I put all the commands thats needs to be run in package.json file of my project. I put them under a key, named ballet(its a random name). I created two keys under it, namely, build and run(these can be user defined). These keys have values as the respective commands declared in an array.
+I put all the commands thats needs to be run in package.json file of my project. I put them under a key, named ballet(its a random name). I created two keys under it, namely, build and run(these can be user defined). Their value is an array containing all the commands.
 There is also a project key, which is the name of project(s) one wants to build.
 
 To run gulp file, I need to give 2 arguments, the project name and the command type, i.e., build or run
