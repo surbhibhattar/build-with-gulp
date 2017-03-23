@@ -4,7 +4,7 @@ var argv = require('yargs').argv;  // for giving command line args
 var exec = require('execa');       
 var nodemon = require('nodemon');
 var grunt = require('grunt');     
-var Finder = require('fs-finder'); // finds all files and folders with given file
+var Finder = require('fs-finder'); // finds all files and folders with a given file
 
 gulp.task('default', function(cb) {
     var projectName = argv.project;
