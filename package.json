@@ -1,0 +1,12 @@
+{
+  "ballet": {
+    "project": "engage",
+    "build": [
+      "npm install"
+    ],
+    "run": [
+      "nodemon app",
+      "grunt run"
+    ]
+  }
+}
